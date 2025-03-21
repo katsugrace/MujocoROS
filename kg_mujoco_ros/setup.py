@@ -16,6 +16,7 @@ setup(
     license='Apache License 2.0',
     entry_points={
         'console_scripts': [
+          'mujoco_control = kg_mujoco_ros.main:main'
         ],
     },
 )
